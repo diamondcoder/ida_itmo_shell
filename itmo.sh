@@ -106,9 +106,9 @@ do
 	echo "Transaction code is:"
 	echo $TRANSACTION
 	
-	printf "Do you want make another transaction? Yes? enter ( y ) or any letter to exit.\n"
+	printf "Do you want make another transaction? Yes? press ( y ) or any letter and press enter.\n"
 	read ANS
-	if [ $ANS != "y" ];
+	if [ "$ANS" != "y" ];
         then
         printf "Thank you for choosing our service\n ************* \n"
 
