@@ -111,7 +111,6 @@ do
 	if [ "$ANS" != "y" ];
         then
         printf "Thank you for choosing our service\n ************* \n"
-
             exit
 	fi
 
